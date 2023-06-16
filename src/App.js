@@ -1,10 +1,23 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Pursuit App Template</h1>
-    </div>
+      <div className="web-view">
+  
+        <iframe
+        title="inIT-user"
+        className="first-view"
+        src="https://init-first-build.netlify.app/"
+        />
+  
+       
+
+        <iframe
+        title="inIT-recruiter"
+          className="second-view"
+          src="https://init-first-build.netlify.app/"
+        />
+      </div>
   );
 }
 

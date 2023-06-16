@@ -1,0 +1,35 @@
+.web-view {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+
+iframe {
+    width: 400px;
+    height: 780px;
+    
+}
+
+
+/* .first-screen {
+    position: relative;
+    bottom: 100vh;
+    z-index: -1;
+    height: 850px;
+    width: 430px ;
+} */
+
+.first-view {
+    grid-column: 1;
+    grid-row: 1;
+    /* border-radius: 20px; */
+}
+.second-view {
+    grid-column: 2;
+    grid-row: 1;
+}
+
