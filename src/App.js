@@ -7,7 +7,7 @@ function App() {
         <iframe
         title="inIT-user"
         className="first-view"
-        src="http://localhost:3000/"
+        src="https://init-first-build.netlify.app/"
         />
   
        
